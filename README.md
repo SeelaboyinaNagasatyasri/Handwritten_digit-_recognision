@@ -1,22 +1,50 @@
-# Handwritten_digit-_recognision
-Find The digit which is written by Handwritting
-Multiple Handwritten Digit Recognition using Deep Learning ( TensorFlow - Keras )
-Requirements
-TensorFlow (Keras)
-Python 3.5 +
-Numpy (+ mkl for Windows)
-PIL ( pillow )
-Opencv
-tkinter ( python GUI )
-About Project
-Trained model on MNIST dataset Using CNN (Convolutional Nueral Network)
+# Multiple Handwritten Digit Recognition Using Deep Learning (TensorFlow - Keras)
 
-Save model as 'mnist.h5' ( train_digit_recognizer.py )
+**Overview**
 
-Using tkinter GUI make a canvas and write digit on it
+This project is a Deep Learning-based application that recognizes and predicts handwritten digits using a Convolutional Neural Network (CNN). The model is trained on the MNIST dataset and is capable of identifying multiple handwritten digits drawn by the user through an interactive graphical interface.
 
-Using PIL get a copy of Handwritten Digits on the canvas and saved into '/img' as 'img_{image_number}.png'
+The system utilizes TensorFlow and Keras for model training, OpenCV for contour detection, and Tkinter for providing a user-friendly drawing canvas. It offers an efficient solution for real-time handwritten digit recognition.
 
-Also with the help of OpenCV by recognizing contours it can handle multiple digits
+---
 
-Use saved model 'mnist.h5' to predict saved Handwritten Digit image from canvas
+**Requirements**
+
+* TensorFlow (Keras)
+* Python 3.5+
+* NumPy
+* Pillow (PIL)
+* OpenCV
+* Tkinter
+
+---
+
+**About the Project**
+
+* Trained a Convolutional Neural Network (CNN) model using the MNIST handwritten digit dataset.
+* Saved the trained model as `mnist.h5` for digit prediction.
+* Developed a Tkinter-based graphical user interface that allows users to draw handwritten digits on a canvas.
+* Used Pillow (PIL) to capture and save handwritten digit images from the drawing canvas.
+* Applied OpenCV contour detection techniques to identify and process multiple handwritten digits within a single image.
+* Utilized the trained CNN model to predict and classify handwritten digits with high accuracy.
+
+---
+
+**Technologies Used**
+
+* Python
+* TensorFlow
+* Keras
+* OpenCV
+* NumPy
+* Pillow (PIL)
+* Tkinter
+
+---
+
+**Dataset**
+
+* MNIST Handwritten Digit Dataset
+* 60,000 Training Images
+* 10,000 Testing Images
+* Digits ranging from 0 to 9
